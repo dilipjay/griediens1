@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Login</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="loginLogo">loginLogo</string>
+    <string name="LoginLogo">Logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="forgotpass">forgot password?</string>
+    <string name="Register">register</string>
+
+
+    <string name="title_activity_splash">splash</string>
+
+    <string name="title_activity_splashlogo">splashlogo</string>
+    <string name="splashlogo">splashlogo</string>
+    <string name="title_activity_loginpg">Loginpg</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_logomove">logomove</string>
+    <string name="logot">logot</string>
+
+    <string name="signup">sign up!</string>
+    <string name="dhacc">don\'t have an account?\u0020</string>
+    <string name="splogo">splashlogo1</string>
+    <string name="lglogo">lglogo</string>
+
+
+    <string name="title_activity_personalin">personalin</string>
+    <string name="personalinfo">personal info</string>
+    <string name="name">name</string>
+    <string name="name1">name</string>
+    <string name="title_activity_rectangle">rectangle</string>
+    <string name="firstlast">first, last</string>
+    <string name="personalIn">personal info</string>
+    <string name="Name">name</string>
+    <string name="Email">name@name.com</string>
+    <string name="Email1">email</string>
+    <string name="Passed">password</string>
+    <string name="custcheckbox">male</string>
+    <string name="male">male</string>
+    <string name="sex">sex</string>
+    <string name="female">female</string>
+    <string name="month">dd\u0020</string>
+    <string name="datedd">mm\u0020</string>
+    <string name="year">yyyy\u0020</string>
+    <string name="dob">date of birth</string>
+    <string name="ph">phone</string>
+    <string name="ph1">555</string>
+    <string name="ph2">555</string>
+    <string name="ph3">5555</string>
+    <string name="title_activity_personalinfo">personalinfo</string>
+    <string name="add">\address</string>
+    <string name="myadd">my address</string>
+    <string name="add1">address</string>
+    <string name="zip1">10001</string>
+    <string name="zip">zip</string>
+    <string name="cntry">country</string>
+    <string name="next">next</string>
+
+    <string-array name="country_names">
+
+        <item>United States</item>
+        <item>Australia</item>
+        <item>India</item>
+        <item>United Kingdom</item>
+
+    </string-array>
+    <string name="title_activity_creditcard">creditcard</string>
+    <string name="blginf">billing info</string>
+    <string name="namec">name on card</string>
+    <string name="ccnum">credit card number</string>
+    <string name="ccnum1">*****3766</string>
+    <string name="expd">expiration date</string>
+    <string name="exdt1">02</string>
+    <string name="exp1">2015</string>
+    <string name="seccd">987</string>
+    <string name="secc">security code</string>
+    <string name="bgadd">billing address</string>
+    <string name="bgadd1">my address</string>
+    <string name="address">address</string>
+    <string name="zip2">10001</string>
+    <string name="loginmn">login</string>
+    <string name="title_activity_first_page">firstPage</string>
+    <string name="logout">logout</string>
+    <string name="title_activity_firstpg">firstpg</string>
+
+
+</resources>

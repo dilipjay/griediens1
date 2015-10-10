@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstpage"
+    tools:context="com.reidiens.login.firstPage">
+
+
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:id="@+id/logout"
+        android:layout_marginTop="42dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="#FE2E2E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom" />
+
+
+</LinearLayout>

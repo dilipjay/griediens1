@@ -1,0 +1,608 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/personalinfh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gredienslog"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/personalinf"
+            android:layout_width="match_parent"
+            android:layout_height="303dp"
+
+            tools:context="com.reidiens.login.personalin">
+
+
+            <TextView
+                android:id="@+id/personalIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/personalIn"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/enName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/personalIn"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/rectang"
+                android:hint="@string/firstlast"
+                android:inputType="textPersonName"
+                android:padding="7dip"
+                android:singleLine="false"
+                android:textColor="#FFFF"
+                android:textColorHint="#ffffff"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/enName"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/enEmail"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/enName"
+                android:layout_below="@+id/enName"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rectang"
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress"
+                android:padding="7dip"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emailTx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_above="@+id/passTx"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/pass1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:padding="7dip"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/passTx"
+                android:layout_alignStart="@+id/enEmail" />
+
+            <TextView
+                android:id="@+id/passTx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Passed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_marginTop="57dp"
+                android:layout_below="@+id/enEmail"
+                android:layout_alignParentStart="true" />
+
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbx"
+                android:checked="false"
+                android:text="@string/male"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/pass1"
+                android:layout_alignEnd="@+id/personalIn" />
+
+
+            <TextView
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sex"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/male"
+                android:layout_alignParentStart="true" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/male"
+                android:layout_toEndOf="@+id/male"
+                android:button="@drawable/checkbx"
+                android:checked="false"
+                android:text="@string/female"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/personalinf1"
+                android:layout_width="341dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:id="@+id/dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dob"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/month"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/yer" />
+
+                <EditText
+                    android:id="@+id/datedd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/datedd"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/date" />
+
+                <EditText
+                    android:id="@+id/yer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/year"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/ph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ph"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <EditText
+                    android:id="@+id/ph1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/ph1"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@+id/ph"
+                    android:layout_toStartOf="@+id/ph2" />
+
+                <EditText
+                    android:id="@+id/ph2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/ph2"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@+id/ph3"
+                    android:layout_toStartOf="@+id/ph3" />
+
+                <EditText
+                    android:id="@+id/ph3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/ph3"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="7dip"
+                    android:singleLine="false"
+                    android:textColor="#FFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@+id/ph1"
+                    android:layout_alignEnd="@+id/yer" />
+
+
+
+            </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/personalinfh1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gredienslog"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/personalinf2"
+                android:layout_width="match_parent"
+                android:layout_height="87dp">
+
+
+                <TextView
+                    android:id="@+id/myadd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/add1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/myadd"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/myadd1"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/rectang"
+                    android:hint="@string/myadd"
+                    android:inputType="text"
+                    android:padding="7dip"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/personalinfh2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gredienslog"
+                android:orientation="vertical">
+
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/personalinf3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/zip1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zip"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/zip"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="53dp"
+                        android:background="@drawable/rectang"
+                        android:hint="@string/zip1"
+                        android:inputType="text"
+                        android:padding="7dip"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#ffffff"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/cntry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/zip1"
+                        android:layout_marginTop="33dp"
+                        android:text="@string/cntry"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/cntry1"
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:layout_alignTop="@+id/cntry"
+                        android:background="@drawable/rectang"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/zip"
+                        android:layout_alignParentEnd="true" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/personalinf4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/namec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="48dp"
+                        android:text="@string/namec"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/namecc"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/rectang"
+                        android:hint="@string/firstlast"
+                        android:inputType="textPersonName"
+                        android:padding="7dip"
+                        android:singleLine="false"
+                        android:textColor="#FFFF"
+                        android:textColorHint="#ffffff"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/personalinfh3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="468dp"
+                    android:background="@drawable/gredienslog"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/personalinf5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.45">
+
+
+                    <TextView
+                    android:id="@+id/creditnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ccnum"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="53dp" />
+
+                        <EditText
+                            android:id="@+id/ccnum"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectang"
+                            android:hint="@string/ccnum1"
+                            android:inputType="number"
+                            android:padding="7dip"
+                            android:textColor="#FFFF"
+                            android:textColorHint="#ffffff"
+                            android:textSize="20sp"
+                            android:layout_alignBottom="@+id/creditnum"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            android:id="@+id/expd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/expd"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFFFFF"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+
+                        <EditText
+                            android:id="@+id/exdt"
+                            android:layout_width="46dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectang"
+                            android:hint="@string/exdt1"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:padding="7dip"
+                            android:singleLine="false"
+                            android:textColor="#FFFF"
+                            android:textColorHint="#ffffff"
+                            android:textSize="20sp"
+                            android:layout_alignTop="@+id/expd"
+                            android:layout_alignStart="@+id/ccnum" />
+
+                        <EditText
+                            android:id="@+id/exdt2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectang"
+                            android:hint="@string/exp1"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:padding="7dip"
+                            android:singleLine="false"
+                            android:textColor="#FFFF"
+                            android:textColorHint="#ffffff"
+                            android:textSize="20sp"
+                            android:layout_alignTop="@+id/exdt"
+                            android:layout_toEndOf="@+id/seccd" />
+
+                        <EditText
+                            android:id="@+id/seccd"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectang"
+                            android:hint="@string/seccd"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:padding="7dip"
+                            android:singleLine="false"
+                            android:textColor="#FFFF"
+                            android:textColorHint="#ffffff"
+                            android:textSize="20sp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/exdt" />
+
+                        <TextView
+                            android:id="@+id/secc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/secc"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFFFFF"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            android:layout_alignTop="@+id/seccd"
+                            android:layout_alignParentStart="true" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/personalinf5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.31">
+
+                        <Button
+                            android:id="@+id/register1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:background="#FE2E2E"
+                            android:text="@string/Register"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true" />
+
+                    </RelativeLayout>
+                    </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
